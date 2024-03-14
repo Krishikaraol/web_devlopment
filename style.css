@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main{
+    height: 80vh;
+    position: relative;
+    background-image: url(asset/images/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100vw;
+}
+.main .box{
+     height: 80vh;
+     width: 100%;
+     opacity: 0.44;
+     position: absolute;
+     top: 0;
+     background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between   ;
+    align-items: center;
+}
